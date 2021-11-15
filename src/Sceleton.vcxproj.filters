@@ -1,0 +1,216 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sceleton.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Duck.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Flyable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Hunter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IsFlyable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IsQuackable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MallardDuck.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MedicineDuck.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NoFlyable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NoQuackable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Quackable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RedHeadDuck.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RubberDuck.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Lake.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sceleton.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Duck.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Flyable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Hunter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="IsFlyable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="IsQuackable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MallardDuck.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MedicineDuck.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NoFlyable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NoQuackable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Quackable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RedHeadDuck.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RubberDuck.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Lake.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Sceleton.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="mallard._BOT_LEFTbmp.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="mallard._BOT_RIGHTbmp.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="mallard._TOP_LEFTbmp.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="mallard._TOP_RIGHTbmp.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="redhead_BOT_LEFT.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="redhead_BOT_RIGHT.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="redhead_TOP_LEFT.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="redhead_TOP_RIGHT.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="rubberduck_BOT_LEFT.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="rubberduck_BOT_RIGHT.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="rubberduck_TOP_LEFT.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="rubberduck_TOP_RIGHT.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="medicine_BOT_LEFT.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="medicine_BOT_RIGHT.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="medicine_TOP_LEFT.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="medicine_TOP_RIGHT.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="lake.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="hunter.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="mallard_BOT.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="mallard_LEFT.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="mallard_RIGHT.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="mallard_TOP.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="water_texture.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="grass_texture.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="redhead_BOT.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="redhead_LEFT.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="redhead_RIGHT.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="redhead_TOP.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="утка.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+  </ItemGroup>
+</Project>
